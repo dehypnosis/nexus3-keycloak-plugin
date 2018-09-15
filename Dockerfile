@@ -1,8 +1,9 @@
 FROM quay.io/travelaudience/docker-nexus:3.13.0
 RUN apk update && apk add maven git
 WORKDIR /root
-ADD . .
-RUN mvn clean install
+ADD . ./src
+RUN cd /root/src && mvn clean install
+RUN rm -rf /root/src
 ENV install_dir /opt/sonatype/nexus
 ENV data_dir /nexus-data
 ENV keycloak_plugin_ver=0.2.1-SNAPSHOT
