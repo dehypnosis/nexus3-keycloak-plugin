@@ -1,3 +1,9 @@
+# Forked and
+- Keycloak version updated to **4.3.0.Final** from 3.x
+- Docker image which includes **sonatype/nexus3 3.13.0** made and pushed at [dehypnosis/nexus-3.13.0-keycloak-4.3.0.Final](https://hub.docker.com/r/dehypnosis/docker-nexus-keycloak/)
+- Thanks to [flytreeleft](https://github.com/flytreeleft/nexus3-keycloak-plugin)
+---
+
 Nexus3 Keycloak Plugin
 ===============================
 This plugin adds a Keycloak realm to Sonatype Nexus OSS and enables you to
