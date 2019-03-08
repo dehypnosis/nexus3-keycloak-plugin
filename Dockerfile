@@ -1,4 +1,4 @@
-FROM quay.io/travelaudience/docker-nexus:3.13.0
+FROM quay.io/travelaudience/docker-nexus:3.15.2
 RUN apk update && apk add maven git
 WORKDIR /root
 ADD . ./src

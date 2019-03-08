@@ -1,7 +1,8 @@
 # Forked and
 - Keycloak version updated to **4.3.0.Final** from 3.x
 - Fetch **effective** client roles not only assigned client roles.
-- Docker image which includes **sonatype/nexus3 3.13.0** made and pushed at [dehypnosis/nexus-3.13.0-keycloak-4.3.0.Final](https://hub.docker.com/r/dehypnosis/nexus-3.13.0-keycloak-4.3.0.final/)
+- Docker image which includes **sonatype/nexus3 3.13.0** made and pushed at [dehypnosis/nexus-3.13.0-keycloak-4.3.0.final](https://hub.docker.com/r/dehypnosis/nexus-3.13.0-keycloak-4.3.0.final)
+- Updated: [dehypnosis/nexus-3.15.2-keycloak-4.3.0.final](https://hub.docker.com/r/dehypnosis/nexus-3.15.2-keycloak-4.3.0.final)
 - Thanks to [flytreeleft](https://github.com/flytreeleft/nexus3-keycloak-plugin)
 ---
 
